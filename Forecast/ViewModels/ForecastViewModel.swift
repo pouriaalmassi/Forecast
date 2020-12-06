@@ -120,7 +120,7 @@ extension ForecastViewModel: UISearchResultsUpdating {
 }
 
 extension ForecastViewModel: LocationServiceDelegate {
-    func locationService(_ manager: CLLocationManager, didUpdateLocation location: CLLocation) {
+    func locationServiceDidUpdateLocation(_ location: CLLocation) {
         searchCoordinate(location.coordinate)
     }
 }

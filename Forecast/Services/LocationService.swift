@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 
 protocol LocationServiceDelegate: AnyObject {
-    func locationService(_ manager: CLLocationManager, didUpdateLocation location: CLLocation)
+    func locationServiceDidUpdateLocation(_ location: CLLocation)
 }
 
 final class LocationService: NSObject {
@@ -55,6 +55,6 @@ extension LocationService: CLLocationManagerDelegate {
         guard let location = locations.first else {
             return
         }
-        delegate?.locationService(manager, didUpdateLocation: location)
+        delegate?.locationServiceDidUpdateLocation(location)
     }
 }

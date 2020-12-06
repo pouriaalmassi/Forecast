@@ -18,3 +18,6 @@ Open the project file and ⌘ + R.
 - Improved error handling.
 - Support presentation of multiple locations.
 - Support searching by post code for countries other than Australia.
+
+### Third Party Resources
+- Simple throttling class. https://www.craftappco.com/blog/2018/5/30/simple-throttling-in-swift

@@ -2,6 +2,12 @@
 
 A simple iOS weather app.
 
+Provides the following features:
+
+- Search by city name or post code (Australia only).
+- Search by GPS location.
+- Automatically loads most recent search location on load.
+
 ![Image of app](sample.png)
 
 ### Environment

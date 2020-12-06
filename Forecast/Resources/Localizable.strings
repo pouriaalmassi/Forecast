@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Forecast
+
+  Created by Pouria Almassi on 5/12/20.
+  
+*/
+
+/* Navigation Item Title. */
+"navigationItem.title" = "Forecast";
+
+/* Search Results Controller 'Search by Current Location' Row Title.  */
+"searchResultsController.searchByCurrentLocation.title" = "Search by Current Location";

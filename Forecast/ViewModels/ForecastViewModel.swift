@@ -89,6 +89,7 @@ final class ForecastViewModel: NSObject {
                 print("Server error with status code \(statusCode).")
             }
             completion?()
+            self.delegate?.forecastViewModelDidFail(error)
 
         case .success(let data):
             completion?()
